@@ -1,0 +1,10 @@
+1. Block Reward
+  - If the miner mines a block that has a number that contains an 8, the user gets a 10% increase on their reward for each 8 in the block number
+    * i.e. If the person mines block #5732808, the person gets 20% extra reward 
+2. Difficulty and Reward
+  - The block reward is determined on the current difficulty
+  - Reward can be determine using this formula
+    * REWARD = 5 + DIFFICULTY * 2.28
+    * i.e. If difficulty is equal to 10, the block reward would be equal to 27.8 KikCoin
+3. Miner Address and Block Number
+  - If the miner mines a block that has a number that contains a 4, the creator (address that is entered in the constructor) is sent the miner's address
